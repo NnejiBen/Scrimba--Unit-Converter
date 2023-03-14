@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;800&display=swap');
+
+/* font-family: 'Inter', sans-serif; */
+
+html {
+    font-size: 14px;
+}
+
+#page-container {
+    width: 50%;
+    margin: auto;
+}
+
+#top-section {
+    background: #6943FF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.heading {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 2rem;
+    /* line-height: 38px; */
+    /* letter-spacing: -0.03em; */
+    color: #FFFFFF;
+    padding-top: 24px;
+}
+
+#input-el {
+    background: #6943FF;
+    width: 20%;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 4rem;
+    /* line-height: 24px; */
+    color: #FFFFFF;
+    margin-top: 28px;
+    border: 2px solid #B295FF;
+    border-radius: 5px;
+    padding: 0 8px;
+}
+
+#convert-btn {
+    margin-top: 24px;
+    margin: 24px 0px 32px;
+    background: #FFFFFF;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border: none;
+    border-radius: 5px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    /* line-height: 24px; */
+    color: #3D3D3D;
+    padding: 8px 24px;
+    cursor: pointer;
+}
+
+#convert-btn:hover {
+    background: #cfc2f1;
+}
+
+#bottom-section {
+    background: #F4F4F4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    padding-top: 24px;
+    padding: 28px 0;
+}
+
+.unit-section {
+    background: #FFFFFF;
+    width: 95%;
+    padding: 24px 0;
+}
+
+.bottom--h2 {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.4rem;
+    /* line-height: 20px; */
+    text-align: center;
+    color: #5A537B;
+}
+
+.output {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1rem;
+    /* line-height: 20px; */
+    /* or 143% */
+    text-align: center;
+    color: #353535;
+    margin-top: 8px;
+}
