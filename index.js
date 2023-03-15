@@ -21,8 +21,6 @@ convertBtn.addEventListener("click", function() {
     ${(inputEl.value / 2.204).toFixed(3)} kilos`
 })
 
-
-
 /*
 1 meter = 3.281 feet
 1 liter = 0.264 gallon
