@@ -124,12 +124,18 @@ html {
 
 @media screen and (max-width: 480px) {
 
+    html {
+        font-size: 14px;
+    }
+
     #page-container {
         width: 100%;
         margin: auto;
     }
 
-    html {
-        font-size: 14px;
+    #input-el {
+        background: #6943FF;
+        width: 40%;
     }
+   
 }
